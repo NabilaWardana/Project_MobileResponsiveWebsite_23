@@ -98,6 +98,30 @@ html{
 }
 /* end :: header-title style */
 
+/* begin :: content-benefit-style */
+.benefit{
+    text-align: center;
+}
+.benefit-section{
+    margin: 50px;
+}
+.benefit-flex-container{
+    display: flex;
+    justify-content: center;
+}
+.benefit-card{
+    padding: 30px;
+    margin: 30px 20px 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.benefit-icon{
+    height: 8vh;
+}
+/* end :: content-benefit-style */
+
 /* begin :: content-class-style */
 .pembelajaran{
     color: white;
@@ -131,7 +155,7 @@ html{
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: 90vh;
+    height: 80vh;
     border-radius: 20px;
 }
 .class-img{
@@ -150,7 +174,7 @@ html{
 
 .class-info{
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
     font-size: 15px;
 }
 .class-info h3{
@@ -208,7 +232,119 @@ html{
     justify-content: center;
 }
 
-/* ketika ukuran layar di bawah 768, terapkan styling di bawah */
+.article-card{
+    background-color: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.article-img{
+    background-size: cover;
+    height: 40vh;
+    border-radius: 20px 20px 0 0;
+} 
+
+#article1-img{
+    background-image: url(https://remedial.id/wp-content/uploads/2019/01/raihan-4-A3-720x1024.jpg);
+}
+
+#article2-img{
+    background-image: url(https://cdn.dribbble.com/users/1224412/screenshots/9840070/media/bf5516b28254a60842834aa5391d2d9e.png?compress=1&resize=400x300);
+}
+#article3-img{
+    background-image: url(https://remedial.id/wp-content/uploads/2019/01/Secarik-dialog-715x1024.gif);
+}
+.article-info{
+    text-align: center;
+    padding: 20px 0 30px 0;
+    font-size: 15px;
+}
+.article-info h3{
+    font-size: 25px;
+}
+
+.article-info p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.button-article-info{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #F49D1A;
+}
+
+.button-article-info:hover{
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #f49d1a86;
+}
+/* end :: content-article-style */
+
+/* begin :: footer style */
+.footer-section{
+    background-color: beige;
+    padding: 50px;
+}
+.footer-flex-container{
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 8vw;
+    margin-bottom: 10px;
+}
+.footer-info{
+    width: 30vw;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.footer-menu ul{
+    list-style: none;
+    line-height: 30px;
+}
+.footer-menu li a {
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer-menu li a:hover{
+    color: #F49D1A;
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer-menu label{
+    font-weight: bold;
+}
+.socmed-icon{
+    width: 2vw;
+    margin: 0 5px;
+}
+.socmed-icon:hover{
+    transform: scale(1.5);
+}
+/* end :: footer style */
+
+/* ketika ukuran layar di bawah 1150, terapkan styling di bawah */
+@media (max-width: 1150px) {
+/* begin :: content-article-style */
+    .article-card{
+        margin: 15px;
+    }
+}
+/* ketika ukuran layar di bawah 992, terapkan styling di bawah */
 @media (max-width: 992px) {
     /* begin :: content-class-style */
     .class-info h3{
@@ -221,6 +357,23 @@ html{
         padding: 10px 40px;
     }
     /* end :: content-class-style */
+
+    /* begin :: content-article-style */
+    .article-card{
+        margin: 15px;
+    }
+    .article-info{
+        text-align: center;
+        padding: 15px 0 30px 0;
+        font-size: 12px;
+    }
+    .article-info h3{
+        font-size: 20px;
+    }
+    .button-article-info{
+        padding: 10px 30px;
+    }
+    /* end :: content-article-style */
 }
 /* ketika ukuran layar di bawah 768, terapkan styling di bawah */
 @media (max-width: 768px) {
@@ -262,6 +415,18 @@ html{
     }
     /* end :: header-title style */
     
+    /* begin :: content-benefit-style */
+    .benefit-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefit-card{
+        text-align: center;
+        width: 80vw;
+    }
+    /* end :: content-benefit-style */
+
     /* begin :: content-class-style */
     .class-flex-container{
         display: flex;
@@ -282,4 +447,58 @@ html{
         padding: 10px 60px;
     }
     /* end :: content-class-style */
+
+    /* begin :: content-article-style */
+    .article-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-card{
+        width: 80vw;
+    }
+    .article-img{
+        height: 50vh;
+    } 
+    .article-info{
+        font-size: 14px;
+    }
+    .article-info h3{
+        font-size: 30px;
+    }
+    .button-article-info{
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 50px;
+        background-color: #F49D1A;
+    }
+    
+    .button-article-info:hover{
+        border-radius: 10px;
+        padding: 10px 30px;
+        color: white;
+        background-color: #f49d1a86;
+    }
+    /* end :: content-article-style */
+
+    /* begin :: footer style */
+    .footer-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo{
+        width: 20vw;
+        margin-bottom: 10px;
+    }
+    .footer-info, .footer-menu{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .socmed-icon{
+        width: 4vw;
+        margin: 0 5px;
+    }
+    /* end :: footer style */
 }
