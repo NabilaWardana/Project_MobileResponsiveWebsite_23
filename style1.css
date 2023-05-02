@@ -346,11 +346,8 @@ html{
     margin: 100px 50px 100px 100px;
     padding: 30px 30px;
     width: 100vw;
-    border-radius: 10px;
-    background-color: beige;
     display: flex;
     flex-direction: column;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1)
 }
 .regist-flex-container h5{
     font-weight: normal;
@@ -410,10 +407,94 @@ html{
 }
 /* begin : img&caption style */
 .regist-img{
-    width: 30vw;
+    width: 35vw;
     margin: 0 60px;
 }
 #regist-stimulus{
+    margin-top: 40px;
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+    color: #F49D1A;
+}
+/* end : img&caption style */
+/* END : STYLE REGISTER-PAGE */
+
+/* BEGIN : STYLE LOGIN-PAGE */
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login-flex-container{
+    margin: 100px 50px 100px 100px;
+    padding: 30px 30px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.login-flex-container h5{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+/* begin : header-title style */
+.login-header{
+    margin: 50px 0 30px 0;
+    text-align: center;
+    color: #2D2727;
+}
+.login-logo{
+    width: 15vw;
+    margin: 10px;
+}
+/* end : header-title style */
+/* begin : content-form style */
+#login-form-input{
+    margin: 10px 20px;
+}
+#name, #email, #phone-number, #password{
+    margin: 5px 0;
+    width: 40vw;
+    height: 5vh;
+    border-radius: 3px;
+    border-width: 1px;
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+    }
+/* end : content-form style */
+/* begin : button style */
+.login-button {
+    margin: 50px 20px 20px 20px;
+    width: 40vw;
+    padding: 8px 8px;
+    background-color: #FFB72B;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-align:center;
+    cursor: pointer; /* menambahkan properti pointer-events */
+}
+
+.login-button:hover {
+    background-color: #ffb82b8d;
+}
+/* end : button style */
+.login-desc{
+    margin: auto;
+    margin-right: 100px;
+}
+/* begin : img&caption style */
+.login-img{
+    width: 35vw;
+    margin: 100px 60px 0 60px;
+}
+#login-stimulus{
+    margin-top: 40px;
     width: 40vw;
     text-align: center;
     align-items: center;
@@ -480,9 +561,35 @@ html{
         margin-bottom: 50px;
         align-items: center;
         width: 80vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     }
     #name, #email, #phone-number, #password{
         width: 60vw;
+    }
+    /* END : STYLE REGISTER-PAGE */
+    /* BEGIN : STYLE LOGIN-PAGE */
+    .login{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .login-desc{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .login-img{
+        margin: 0 170px;
+    }
+    #login-stimulus{
+        width: 70vw;
+    }
+    .login-flex-container{
+        margin: auto;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 80vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     }
     /* END : STYLE REGISTER-PAGE */
     
@@ -635,9 +742,35 @@ html{
         align-items: center;
         margin-bottom: 50px;
         width: 80vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     }
     #name, #email, #phone-number, #password{
         width: 60vw;
     }
     /* END : STYLE REGISTER-PAGE */
+    /* BEGIN : STYLE LOGIN-PAGE */
+    .login{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .login-desc{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .login-img{
+        margin: 0 100px;
+    }
+    #login-stimulus{
+        width: 70vw;
+    }
+    .login-flex-container{
+        margin: auto;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 80vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    }
+    /* END : STYLE LOGIN-PAGE */
 }
