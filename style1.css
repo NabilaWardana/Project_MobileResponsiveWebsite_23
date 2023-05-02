@@ -1,0 +1,643 @@
+html{
+    height: 100%;
+    max-width: 100%;
+}
+
+/* begin :: navbar style */
+.nav-flex-container{
+    margin: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo{
+    width: 150px;
+}
+
+.nav-menu-tengah{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.nav-flex-item{
+    text-decoration: none;
+    padding: 9px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(65, 68, 75);
+}
+
+.nav-flex-item:hover{
+    color: white;
+    background-color: #FFB72B;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
+
+.nav-menu-kanan{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    align-items: center;
+}
+
+.signin-button{
+    color: #F49D1A;
+    border: 1px solid #F49D1A;
+    padding: 9px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.signup-button{
+    color: white;
+    background-color: #FFB72B;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.signup-button:hover{
+    color: white;
+    background-color: #ffb82b85;
+    text-decoration:underline;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* end :: navbar style */
+
+/* begin :: header-title style */
+.title-section{
+    background-color: beige;
+    width: 100%;
+    padding: 50px;
+}
+.title-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    width: 50vw;
+    font-size: 60px;
+    font-weight: normal;
+}
+#description{
+    width: 50vw;
+}
+.title-img{
+    width: 30vw;
+}
+.get-started{
+    display: block;
+    margin-top: 20px;
+}
+/* end :: header-title style */
+
+/* begin :: content-benefit-style */
+.benefit{
+    text-align: center;
+}
+.benefit-section{
+    margin: 50px;
+}
+.benefit-flex-container{
+    display: flex;
+    justify-content: center;
+}
+.benefit-card{
+    padding: 30px;
+    margin: 30px 20px 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.benefit-icon{
+    height: 8vh;
+}
+/* end :: content-benefit-style */
+
+/* begin :: content-class-style */
+.pembelajaran{
+    color: white;
+    text-align: center;
+}
+.pembelajaran h5{
+    margin: 20px 80px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.class-section{
+    padding: 50px;
+    background-color: #2D2727;
+}
+.class-flex-container{
+    display: flex;
+    justify-content: center;
+}
+/* .class-card{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+} */
+
+.class-card{
+    background-color: white;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.class-img{
+    background-size: cover;
+    height: 40vh;
+    border-radius: 20px 20px 0 0;
+} 
+
+#offline-img{
+    background-image: url(https://i.pinimg.com/564x/d9/dc/34/d9dc345079bc9e97eb69688412c2bf3b.jpg);
+}
+
+#online-img{
+    background-image: url(https://img.freepik.com/free-photo/close-up-woman-online-class_23-2148888816.jpg?w=826&t=st=1681120732~exp=1681121332~hmac=37a86f3a6a94778ac7987c9373333c8439d7e17f988331a05e91245ef508f48e);
+}
+
+.class-info{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 15px;
+}
+.class-info h3{
+    font-size: 25px;
+}
+
+.button-class-info{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #8D7B68;
+}
+
+.button-class-info:hover{
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+    background-color: #8d7b6877;
+}
+
+#class-detail{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#class-detail li{
+    margin: 10px
+}
+
+#class-detail li span{
+    margin: 10px
+}
+.class-detail-icon{
+    width: 20px;
+}
+/* end :: content-class-style */
+
+/* begin :: content-article-style */
+.artikel{
+    color: black;
+    text-align: center;
+}
+.artikel h5{
+    margin: 20px 80px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.article-section{
+    padding: 50px;
+}
+.article-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.article-card{
+    background-color: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.article-img{
+    background-size: cover;
+    height: 40vh;
+    border-radius: 20px 20px 0 0;
+} 
+
+#article1-img{
+    background-image: url(https://remedial.id/wp-content/uploads/2019/01/raihan-4-A3-720x1024.jpg);
+}
+
+#article2-img{
+    background-image: url(https://cdn.dribbble.com/users/1224412/screenshots/9840070/media/bf5516b28254a60842834aa5391d2d9e.png?compress=1&resize=400x300);
+}
+#article3-img{
+    background-image: url(https://remedial.id/wp-content/uploads/2019/01/Secarik-dialog-715x1024.gif);
+}
+.article-info{
+    text-align: center;
+    padding: 20px 0 30px 0;
+    font-size: 15px;
+}
+.article-info h3{
+    font-size: 25px;
+}
+
+.article-info p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.button-article-info{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #F49D1A;
+}
+
+.button-article-info:hover{
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #f49d1a86;
+}
+/* end :: content-article-style */
+
+/* begin :: footer style */
+.footer-section{
+    background-color: beige;
+    padding: 50px;
+}
+.footer-flex-container{
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 8vw;
+    margin-bottom: 10px;
+}
+.footer-info{
+    width: 30vw;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.footer-menu ul{
+    list-style: none;
+    line-height: 30px;
+}
+.footer-menu li a {
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer-menu li a:hover{
+    color: #F49D1A;
+    text-decoration: none;
+    border-bottom: none;
+}
+.footer-menu label{
+    font-weight: bold;
+}
+.socmed-icon{
+    width: 2vw;
+    margin: 0 5px;
+}
+.socmed-icon:hover{
+    transform: scale(1.5);
+}
+/* end :: footer style */
+
+/* BEGIN : STYLE REGISTER-PAGE */
+.register{
+    display: flex;
+    justify-content: center;
+}
+.regist-flex-container{
+    margin: 100px 50px 100px 100px;
+    padding: 30px 30px;
+    width: 100vw;
+    border-radius: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1)
+}
+.regist-flex-container h5{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+/* begin : header-title style */
+.regist-header{
+    margin: 50px 0 30px 0;
+    text-align: center;
+    color: #2D2727;
+}
+.regist-logo{
+    width: 15vw;
+    margin: 10px;
+}
+/* end : header-title style */
+/* begin : content-form style */
+#regist-form-input{
+    margin: 10px 20px;
+}
+#name, #email, #phone-number, #password{
+    margin: 5px 0;
+    width: 40vw;
+    height: 5vh;
+    border-radius: 3px;
+    border-width: 1px;
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+    }
+/* end : content-form style */
+/* begin : button style */
+.submit-button {
+    margin: 50px 20px 20px 20px;
+    width: 40vw;
+    padding: 8px 8px;
+    background-color: #FFB72B;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-align:center;
+    cursor: pointer; /* menambahkan properti pointer-events */
+}
+
+.submit-button:hover {
+    background-color: #ffb82b8d;
+}
+/* end : button style */
+.regist-desc{
+    margin: auto;
+    margin-right: 100px;
+}
+/* begin : img&caption style */
+.regist-img{
+    width: 30vw;
+    margin: 0 60px;
+}
+#regist-stimulus{
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+    color: #F49D1A;
+}
+/* end : img&caption style */
+/* END : STYLE REGISTER-PAGE */
+
+/* ketika ukuran layar di bawah 1150, terapkan styling di bawah */
+@media (max-width: 1150px) {
+/* begin :: content-article-style */
+    .article-card{
+        margin: 15px;
+    }
+}
+/* ketika ukuran layar di bawah 992, terapkan styling di bawah */
+@media (max-width: 992px) {
+    /* begin :: content-class-style */
+    .class-info h3{
+        font-size: 20px;
+    }
+    .class-info{
+        font-size: 12px;
+    }
+    .button-class-info{
+        padding: 10px 40px;
+    }
+    /* end :: content-class-style */
+
+    /* begin :: content-article-style */
+    .article-card{
+        margin: 15px;
+    }
+    .article-info{
+        text-align: center;
+        padding: 15px 0 30px 0;
+        font-size: 12px;
+    }
+    .article-info h3{
+        font-size: 20px;
+    }
+    .button-article-info{
+        padding: 10px 30px;
+    }
+    /* end :: content-article-style */
+
+    /* BEGIN : STYLE REGISTER-PAGE */
+    .register{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .regist-desc{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .regist-img{
+        margin: 0 170px;
+    }
+    #regist-stimulus{
+        width: 70vw;
+    }
+    .regist-flex-container{
+        margin: auto;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 80vw;
+    }
+    #name, #email, #phone-number, #password{
+        width: 60vw;
+    }
+    /* END : STYLE REGISTER-PAGE */
+    
+}
+/* ketika ukuran layar di bawah 768, terapkan styling di bawah */
+@media (max-width: 768px) {
+    /* begin :: navbar style */
+    .nav-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu-tengah{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    /* end :: navbar style */
+
+    /* begin :: header-title style */
+    
+    .title-flex-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #title{
+        width: 90vw;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    #description{
+        font-size: 12px;
+        width: 90vw;
+    }
+    .title-img{
+        width: 60vw;
+    }
+    .get-started{
+        width: 90vw;
+    }
+    /* end :: header-title style */
+    
+    /* begin :: content-benefit-style */
+    .benefit-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefit-card{
+        text-align: center;
+        width: 80vw;
+    }
+    /* end :: content-benefit-style */
+
+    /* begin :: content-class-style */
+    .class-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pembelajaran h5{
+        margin: 20px 0;
+        font-size: 12px;
+    }
+    .class-card{
+        width: 80vw;
+    }
+    .class-info h3{
+        font-size: 25px;
+    }
+    .button-class-info{
+        padding: 10px 60px;
+    }
+    /* end :: content-class-style */
+
+    /* begin :: content-article-style */
+    .article-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-card{
+        width: 80vw;
+    }
+    .article-img{
+        height: 50vh;
+    } 
+    .article-info{
+        font-size: 14px;
+    }
+    .article-info h3{
+        font-size: 30px;
+    }
+    .button-article-info{
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 50px;
+        background-color: #F49D1A;
+    }
+    
+    .button-article-info:hover{
+        border-radius: 10px;
+        padding: 10px 30px;
+        color: white;
+        background-color: #f49d1a86;
+    }
+    /* end :: content-article-style */
+
+    /* begin :: footer style */
+    .footer-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo{
+        width: 20vw;
+        margin-bottom: 10px;
+    }
+    .footer-info, .footer-menu{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .socmed-icon{
+        width: 4vw;
+        margin: 0 5px;
+    }
+    /* end :: footer style */
+
+    
+    /* BEGIN : STYLE REGISTER-PAGE */
+    .register{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .regist-desc{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .regist-img{
+        margin: 0 100px;
+    }
+    #regist-stimulus{
+        width: 70vw;
+    }
+    .regist-flex-container{
+        margin: auto;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 80vw;
+    }
+    #name, #email, #phone-number, #password{
+        width: 60vw;
+    }
+    /* END : STYLE REGISTER-PAGE */
+}
