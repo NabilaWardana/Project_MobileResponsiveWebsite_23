@@ -338,60 +338,47 @@ html{
 /* end :: footer style */
 
 /* BEGIN : STYLE REGISTER-PAGE */
-.Register{
-    margin-top: 50px;
+.register{
     display: flex;
     justify-content: center;
 }
-
-/* begin : img&caption style */
-.regist-img{
-    width: 500px;
-    margin: 30px 80px 0 0;
-}
-#regist-stimulus{
-    width: 500px;
-    margin: 0 80px 80px 0;
-    text-align: center;
-}
-/* end : img&caption style */
-
 .regist-flex-container{
-    padding: 20px 50px;
-    height: 600px;
+    margin: 100px 50px 100px 100px;
+    padding: 30px 30px;
+    width: 100vw;
     border-radius: 10px;
-    background-color: #ECF2FF;
+    background-color: beige;
     display: flex;
     flex-direction: column;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1)
 }
-
+.regist-flex-container h5{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
 /* begin : header-title style */
 .regist-header{
-    margin: 50px 0;
+    margin: 50px 0 30px 0;
     text-align: center;
-    font-weight: 450;
+    color: #2D2727;
 }
-
-#regist-title1{
-    font-weight: 900;
+.regist-logo{
+    width: 15vw;
+    margin: 10px;
 }
 /* end : header-title style */
-
 /* begin : content-form style */
 #regist-form-input{
-    margin: 20px 0;
-}
-#regist-input-label{
-    font-size: 13px;
+    margin: 10px 20px;
 }
 #name, #email, #phone-number, #password{
     margin: 5px 0;
-    width: 425px;
-    height: 20px;
+    width: 40vw;
+    height: 5vh;
     border-radius: 3px;
     border-width: 1px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 20px 10px;
 }
 .error-message {
@@ -400,26 +387,39 @@ html{
     margin-top: 4px;
     }
 /* end : content-form style */
-
-
 /* begin : button style */
 .submit-button {
-    margin-top: 10px;
-    width: 100px;
+    margin: 50px 20px 20px 20px;
+    width: 40vw;
     padding: 8px 8px;
-    background-color: #6558F5;
+    background-color: #FFB72B;
     border-radius: 5px;
     color: #fff;
-    font-size: 13px;
+    font-size: 16px;
     text-align:center;
     cursor: pointer; /* menambahkan properti pointer-events */
-  }
+}
 
 .submit-button:hover {
-    background-color: #6558f583;
-  }
-
+    background-color: #ffb82b8d;
+}
 /* end : button style */
+.regist-desc{
+    margin: auto;
+    margin-right: 100px;
+}
+/* begin : img&caption style */
+.regist-img{
+    width: 30vw;
+    margin: 0 60px;
+}
+#regist-stimulus{
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+    color: #F49D1A;
+}
+/* end : img&caption style */
 /* END : STYLE REGISTER-PAGE */
 
 /* ketika ukuran layar di bawah 1150, terapkan styling di bawah */
@@ -459,6 +459,33 @@ html{
         padding: 10px 30px;
     }
     /* end :: content-article-style */
+
+    /* BEGIN : STYLE REGISTER-PAGE */
+    .register{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .regist-desc{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .regist-img{
+        margin: 0 170px;
+    }
+    #regist-stimulus{
+        width: 70vw;
+    }
+    .regist-flex-container{
+        margin: auto;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 80vw;
+    }
+    #name, #email, #phone-number, #password{
+        width: 60vw;
+    }
+    /* END : STYLE REGISTER-PAGE */
+    
 }
 /* ketika ukuran layar di bawah 768, terapkan styling di bawah */
 @media (max-width: 768px) {
@@ -586,4 +613,31 @@ html{
         margin: 0 5px;
     }
     /* end :: footer style */
+
+    
+    /* BEGIN : STYLE REGISTER-PAGE */
+    .register{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .regist-desc{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .regist-img{
+        margin: 0 100px;
+    }
+    #regist-stimulus{
+        width: 70vw;
+    }
+    .regist-flex-container{
+        margin: auto;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 80vw;
+    }
+    #name, #email, #phone-number, #password{
+        width: 60vw;
+    }
+    /* END : STYLE REGISTER-PAGE */
 }
