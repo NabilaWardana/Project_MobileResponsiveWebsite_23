@@ -1,13 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
-</head>
-<body>
-    <!-- Tambahkan kode kalian di sini -->
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Responsive Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-flex-container">
+                <div id="nav-logo" class="nav-main-logo">
+                    <img src="https://remedial.id/wp-content/uploads/2018/07/logo-remedial-1024x266.png" class="main-logo"/>
+                </div>
+                <div id="menu-tengah" class="nav-menu-tengah">
+                    <a class="nav-flex-item" href="#">Home</a>
+                    <a class="nav-flex-item" href="#">Course</a>
+                    <a class="nav-flex-item" href="#">Mentor</a>
+                </div>
+                <div id="menu-kanan" class="nav-menu-kanan">
+                    <a class="nav-flex-item signin-button" href="#">Sign In</a>
+                    <a class="nav-flex-item signup-button" href="#">Sign Up</a>
+                </div>
+            </nav>
+            <div class="title-section">
+                <div class="title-flex-container">
+                    <div id="title-kiri" class="title-desc">
+                        <h1 id="title">Yuk gabung bersama Remedial !</h1>
+                        <!-- poin2 -->
+                        <p id="description">Program ini merupakan wadah bagi kamu untuk menemukan dan mengembangkan minat, potensi, dan bakat kamu saling silang informasi yang menghasilkan pengetahuan dan pendekatan seni maupun literasi</h3>
+                        <button type="button" class="btn btn-warning get-started">Get Started !</button>
+                    </div>
+                    <div id="title-kanan">
+                        <img src="https://stories.freepiklabs.com/api/vectors/knowledge/pana/render?color=F49D1AFF&background=complete" class="title-img">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="class-section">
+                <div class="sub-judul pembelajaran">
+                    <h1>Produk pembelajaran kami</h1>
+                    <h5>Kami menyediakan kursus online dan offline yang dirancang untuk mempelajari suatu subjek atau keterampilan tertentu. Kelas daring (dalam jaringan) diselenggarakan secara online, sedangkan kelas luring (luar jaringan) dilakukan secara tatap muka atau di ruang kelas fisik</h5>
+                </div>
+                <div class="class-flex-container">
+                    <div id="online-class-section" class="class-card">
+                        <div id="online-img" class="class-img">
+                            <img src="" alt="" class="">
+                        </div>
+                        <div id="online-info" class="class-info">
+                            <h3>Pembelajaran Daring</h3>
+                            <ul id="class-detail">
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1756/1756784.png" class="class-detail-icon"><span>Berbagai bidang seni & literasi</span></li>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1584/1584808.png" class="class-detail-icon"><span>Waktu Fleksibel</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/10292/10292181.png" class="class-detail-icon"><span>Modul Pembelajaran</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3374/3374371.png" class="class-detail-icon"><span>Sesi Mentoring secara daring</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3261/3261259.png" class="class-detail-icon"><span>Kuis</li></span>
+                            </ul>
+                            <a href="#" class="button-class-info">Informasi Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div id="offline-class-section" class="class-card">
+                        <div id="offline-img" class="class-img">
+                            <img src="" alt="" class="">
+                        </div>
+                        <div id="offline-info" class="class-info">
+                            <h3>Pembelajaran Luring</h3>
+                            <ul id="class-detail">
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1756/1756784.png" class="class-detail-icon"><span>Berbagai bidang seni & literasi</span></li>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/2669/2669764.png" class="class-detail-icon"><span>Waktu Terjadwal</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/888/888034.png" class="class-detail-icon"><span>Modul Pembelajaran</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png" class="class-detail-icon"><span>Pertemuan Rutin</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/2991/2991377.png" class="class-detail-icon"><span>Games</li></span>
+                            </ul>
+                            <a href="#" class="button-class-info">Informasi Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article-section">
+                <div class="sub-judul artikel">
+                    <h1>Artikel Kami</h1>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta facilis nihil ducimus inventore repellendus, ipsam ad ea expedita incidunt minus!</h5>
+                </div>
+                <div class="article-flex-container">
+                    <div id="online-class-section" class="class-card">
+                        <div id="online-img" class="class-img">
+                            <img src="" alt="" class="">
+                        </div>
+                        <div id="online-info" class="class-info">
+                            <h3>Pembelajaran Daring</h3>
+                            <ul id="class-detail">
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1756/1756784.png" class="class-detail-icon"><span>Berbagai bidang seni & literasi</span></li>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1584/1584808.png" class="class-detail-icon"><span>Waktu Fleksibel</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/10292/10292181.png" class="class-detail-icon"><span>Modul Pembelajaran</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3374/3374371.png" class="class-detail-icon"><span>Sesi Mentoring secara daring</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3261/3261259.png" class="class-detail-icon"><span>Kuis</li></span>
+                            </ul>
+                            <a href="#" class="button-class-info">Informasi Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div id="offline-class-section" class="class-card">
+                        <div id="offline-img" class="class-img">
+                            <img src="" alt="" class="">
+                        </div>
+                        <div id="offline-info" class="class-info">
+                            <h3>Pembelajaran Luring</h3>
+                            <ul id="class-detail">
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1756/1756784.png" class="class-detail-icon"><span>Berbagai bidang seni & literasi</span></li>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/2669/2669764.png" class="class-detail-icon"><span>Waktu Terjadwal</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/888/888034.png" class="class-detail-icon"><span>Modul Pembelajaran</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png" class="class-detail-icon"><span>Pertemuan Rutin</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/2991/2991377.png" class="class-detail-icon"><span>Games</li></span>
+                            </ul>
+                            <a href="#" class="button-class-info">Informasi Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div id="offline-class-section" class="class-card">
+                        <div id="offline-img" class="class-img">
+                            <img src="" alt="" class="">
+                        </div>
+                        <div id="offline-info" class="class-info">
+                            <h3>Pembelajaran Luring</h3>
+                            <ul id="class-detail">
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/1756/1756784.png" class="class-detail-icon"><span>Berbagai bidang seni & literasi</span></li>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/2669/2669764.png" class="class-detail-icon"><span>Waktu Terjadwal</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/888/888034.png" class="class-detail-icon"><span>Modul Pembelajaran</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png" class="class-detail-icon"><span>Pertemuan Rutin</li></span>
+                                <li><img src="https://cdn-icons-png.flaticon.com/128/2991/2991377.png" class="class-detail-icon"><span>Games</li></span>
+                            </ul>
+                            <a href="#" class="button-class-info">Informasi Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
 </html>

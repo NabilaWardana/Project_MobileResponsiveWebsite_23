@@ -1,0 +1,285 @@
+html{
+    height: 100%;
+    max-width: 100%;
+}
+
+/* begin :: navbar style */
+.nav-flex-container{
+    margin: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo{
+    width: 150px;
+}
+
+.nav-menu-tengah{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.nav-flex-item{
+    text-decoration: none;
+    padding: 9px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(65, 68, 75);
+}
+
+.nav-flex-item:hover{
+    color: white;
+    background-color: #FFB72B;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
+
+.nav-menu-kanan{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    align-items: center;
+}
+
+.signin-button{
+    color: #F49D1A;
+    border: 1px solid #F49D1A;
+    padding: 9px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.signup-button{
+    color: white;
+    background-color: #FFB72B;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.signup-button:hover{
+    color: white;
+    background-color: #ffb82b85;
+    text-decoration:underline;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* end :: navbar style */
+
+/* begin :: header-title style */
+.title-section{
+    background-color: beige;
+    width: 100%;
+    padding: 50px;
+}
+.title-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    width: 50vw;
+    font-size: 60px;
+    font-weight: normal;
+}
+#description{
+    width: 50vw;
+}
+.title-img{
+    width: 30vw;
+}
+.get-started{
+    display: block;
+    margin-top: 20px;
+}
+/* end :: header-title style */
+
+/* begin :: content-class-style */
+.pembelajaran{
+    color: white;
+    text-align: center;
+}
+.pembelajaran h5{
+    margin: 20px 80px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.class-section{
+    padding: 50px;
+    background-color: #2D2727;
+}
+.class-flex-container{
+    display: flex;
+    justify-content: center;
+}
+/* .class-card{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+} */
+
+.class-card{
+    background-color: white;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 20px;
+}
+.class-img{
+    background-size: cover;
+    height: 40vh;
+    border-radius: 20px 20px 0 0;
+} 
+
+#offline-img{
+    background-image: url(https://i.pinimg.com/564x/d9/dc/34/d9dc345079bc9e97eb69688412c2bf3b.jpg);
+}
+
+#online-img{
+    background-image: url(https://img.freepik.com/free-photo/close-up-woman-online-class_23-2148888816.jpg?w=826&t=st=1681120732~exp=1681121332~hmac=37a86f3a6a94778ac7987c9373333c8439d7e17f988331a05e91245ef508f48e);
+}
+
+.class-info{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.class-info h3{
+    font-size: 25px;
+}
+
+.button-class-info{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    background-color: #8D7B68;
+}
+
+.button-class-info:hover{
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+    background-color: #8d7b6877;
+}
+
+#class-detail{
+    list-style: none;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#class-detail li{
+    margin: 10px
+}
+
+#class-detail li span{
+    margin: 10px
+}
+.class-detail-icon{
+    width: 20px;
+}
+/* end :: content-class-style */
+
+/* begin :: content-article-style */
+.artikel{
+    color: black;
+    text-align: center;
+}
+.artikel h5{
+    margin: 20px 80px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.article-section{
+    padding: 50px;
+}
+.article-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* ketika ukuran layar di bawah 768, terapkan styling di bawah */
+@media (max-width: 992px) {
+    /* begin :: content-class-style */
+    .class-info h3{
+        font-size: 20px;
+    }
+    .class-info{
+        font-size: 12px;
+    }
+    .button-class-info{
+        padding: 10px 40px;
+    }
+    /* end :: content-class-style */
+}
+/* ketika ukuran layar di bawah 768, terapkan styling di bawah */
+@media (max-width: 768px) {
+    /* begin :: navbar style */
+    .nav-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu-tengah{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    /* end :: navbar style */
+
+    /* begin :: header-title style */
+    
+    .title-flex-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #title{
+        width: 90vw;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    #description{
+        font-size: 12px;
+        width: 90vw;
+    }
+    .title-img{
+        width: 60vw;
+    }
+    .get-started{
+        width: 90vw;
+    }
+    /* end :: header-title style */
+    
+    /* begin :: content-class-style */
+    .class-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pembelajaran h5{
+        margin: 20px 0;
+        font-size: 12px;
+    }
+    .class-card{
+        width: 80vw;
+    }
+    .class-info h3{
+        font-size: 25px;
+    }
+    .button-class-info{
+        padding: 10px 60px;
+    }
+    /* end :: content-class-style */
+}
