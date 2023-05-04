@@ -93,8 +93,13 @@ html{
     width: 30vw;
 }
 .get-started{
+    color: white;
     display: block;
     margin-top: 20px;
+    background-color: #F49D1A;
+}
+.get-started:hover{
+    color: white;
 }
 /* end :: header-title style */
 
@@ -630,7 +635,9 @@ html{
         width: 60vw;
     }
     .get-started{
+        color: white;
         width: 90vw;
+        background-color: #F49D1A;
     }
     /* end :: header-title style */
     
