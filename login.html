@@ -19,15 +19,22 @@
                     <div id="login-form-input" class="login-email-input">
                         <label id="login-input-label" for="email-input">E-mail</label><br>
                         <input id="email" type="email" placeholder="Enter your e-mail here" >
-                        <div id="email-error" class="error-message"></div>
+                        <div id="login-email-error" class="error-message"></div>
                     </div>
                     <div id="login-form-input" class="login-password-input">
                         <label id="login-input-label" for="password-input">Password</label><br>
                         <input id="password" type="password" placeholder="Enter your password here" >
-                        <div id="password-error" class="error-message"></div>
+                        <label for="show-password">
+                            Show password
+                            <input type="checkbox" id="show-password">
+                        </label>
+                        <div id="login-password-error" class="error-message"></div>
+                    
+                        <div id="login-error" class="error-message"></div>
                     </div>
                 </div>
-                <div class="login-button" onclick="checkBmi()">Login</div>
+                
+                <div class="login-button" onclick="login()">Login</div>
 
                 <h5>Don't have an account <a href="register.html">Register</a>?</h5>
             </div>
@@ -36,6 +43,7 @@
                 <h3 id="login-stimulus">"Register now and enjoy access to our exciting features and services!"</h3>
             </div>
         </div>
+        <script src="script1.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
     
