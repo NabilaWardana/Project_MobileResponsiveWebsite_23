@@ -220,11 +220,11 @@ html{
 /* end :: content-class-style */
 
 /* begin :: content-article-style */
-.artikel{
+.article{
     color: black;
     text-align: center;
 }
-.artikel h5{
+.article h5{
     margin: 20px 80px;
     font-size: 15px;
     font-weight: normal;
@@ -507,6 +507,78 @@ html{
 }
 /* end : img&caption style */
 /* END : STYLE REGISTER-PAGE */
+
+/* BEGIN : STYLE artikel-PAGE */
+.artikel{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(245, 245, 220, 0.2);
+}
+
+.artikel-flex-container{
+    margin: 50px 0;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 60vw;
+}
+.tombol-kembali-artikel {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+.tombol-kembali-artikel:hover {
+    background-color: #ddd;
+}
+  
+.artikel-title, .artikel-header, .artikel-cover, .artikel-content{
+    padding-bottom: 10px;
+}
+.artikel-content{
+    padding-top: 20px;
+}
+.artikel-title h1{
+    text-align: center;
+}
+.artikel-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artikel-header-left{
+    display: flex;
+}
+.artikel-header-left p{
+    padding: 10px;
+    background-color: #f49d1a99;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.artikel-author h4{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.artikel-author h5{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.artikel-publish h5{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.artikel-cover{
+    height: 30vw;
+    background-image: url(https://remedial.id/wp-content/uploads/2019/01/raihan-4-A3-720x1024.jpg);
+    background-size: cover;
+}
+.artikel-footer{
+    color: #8D7B68;
+}
+/* END : STYLE artikel-PAGE */
 
 /* ketika ukuran layar di bawah 1150, terapkan styling di bawah */
 @media (max-width: 1150px) {

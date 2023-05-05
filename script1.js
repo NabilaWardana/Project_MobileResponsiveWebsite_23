@@ -135,6 +135,11 @@ function login() {
   }
 }
 
+// JS BLOG-PAGE
+// back button
+document.querySelector('.tombol-kembali').addEventListener('click', function() {
+  window.history.back();
+});
 
 
 
