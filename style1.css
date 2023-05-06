@@ -67,6 +67,31 @@ html{
     border-radius: 5px;
     font-weight: 500;
 }
+.profil-dropdown{
+    margin-left: 50px;
+}
+.dropdown-toggle{
+    background-color: #F49D1A;
+    border-color: #F49D1A;
+}
+.dropdown-toggle:hover{
+    background-color: #f49d1a77;
+    border-color: #f49d1a80;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 9px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(65, 68, 75);
+}
+    
+    .nav-link:hover{
+    color: white;
+    background-color: #FFB72B;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
 /* end :: navbar style */
 
 /* begin :: header-title style */
@@ -590,6 +615,21 @@ html{
 }
 /* ketika ukuran layar di bawah 992, terapkan styling di bawah */
 @media (max-width: 992px) {
+    .navbar-collapse {
+        justify-content: center;
+        }
+        .nav-link {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        }
+        .nav-link:hover {
+        color: white;
+        background-color: #FFB72B;
+        padding: 9px 15px;
+        border-radius: 5px;
+        margin-bottom: 0;
+        }
     /* begin :: content-class-style */
     .class-info h3{
         font-size: 20px;
