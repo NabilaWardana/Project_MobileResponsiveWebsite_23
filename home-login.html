@@ -14,14 +14,25 @@
                     <img src="https://remedial.id/wp-content/uploads/2018/07/logo-remedial-1024x266.png" class="main-logo"/>
                 </div>
                 <div id="menu-tengah" class="nav-menu-tengah">
-                    <a class="nav-flex-item" href="index.html">Home</a>
-                    <a class="nav-flex-item" href="login.html">Course</a>
-                    <a class="nav-flex-item" href="login.html">Mentor</a>
-                    <a class="nav-flex-item" href="login.html">Article</a>
+                    <a class="nav-flex-item active-button" href="home-login.html">Home</a>
+                    <a class="nav-flex-item" href="course.html">Course</a>
+                    <a class="nav-flex-item" href="mentor.html">Mentor</a>
+                    <a class="nav-flex-item" href="artikel.html">Article</a>
                 </div>
                 <div id="menu-kanan" class="nav-menu-kanan">
-                    <a class="nav-flex-item signin-button" href="login.html">Sign In</a>
-                    <a class="nav-flex-item signup-button" href="register.html">Sign Up</a>
+                    <div class="profil-dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg> Kelfin
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                          <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                          <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div class="title-section">
@@ -30,7 +41,7 @@
                         <h1 id="title">Yuk gabung bersama Remedial !</h1>
                         <!-- poin2 -->
                         <p id="description">Program ini merupakan wadah bagi kamu untuk menemukan dan mengembangkan minat, potensi, dan bakat kamu saling silang informasi yang menghasilkan pengetahuan dan pendekatan seni maupun literasi</h3>
-                        <button type="button" class="btn btn-warning get-started" onclick="window.location.href='register.html'">Get Started !</button>
+                        <button type="button" class="btn btn-warning get-started" onclick="window.location.href='course.html'">Get Started !</button>
                     </div>
                     <div id="title-kanan">
                         <img src="https://stories.freepiklabs.com/api/vectors/knowledge/pana/render?color=F49D1AFF&background=complete" class="title-img">
@@ -92,7 +103,7 @@
                                 <li><img src="https://cdn-icons-png.flaticon.com/128/3374/3374371.png" class="class-detail-icon"><span>Sesi Mentoring secara daring</li></span>
                                 <li><img src="https://cdn-icons-png.flaticon.com/128/3261/3261259.png" class="class-detail-icon"><span>Kuis</li></span>
                             </ul>
-                            <a href="login.html" class="button-class-info">Informasi Selengkapnya</a>
+                            <a href="course.html" class="button-class-info">Informasi Selengkapnya</a>
                         </div>
                     </div>
                     <div id="offline-class-section" class="class-card">
@@ -108,7 +119,7 @@
                                 <li><img src="https://cdn-icons-png.flaticon.com/128/3050/3050431.png" class="class-detail-icon"><span>Pertemuan Rutin</li></span>
                                 <li><img src="https://cdn-icons-png.flaticon.com/128/2991/2991377.png" class="class-detail-icon"><span>Games</li></span>
                             </ul>
-                            <a href="login.html" class="button-class-info">Informasi Selengkapnya</a>
+                            <a href="course.html" class="button-class-info">Informasi Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +145,7 @@
                                 Terpatri harapan yang kian luntur
                                 Bisakah hati ini merdeka
                                 Dari belenggu sangkar yang pilu</p>
-                            <a href="login.html" class="button-article-info">Baca Selengkapnya</a>
+                            <a href="artikel.html" class="button-article-info">Baca Selengkapnya</a>
                         </div>
                     </div>
                     <div id="article2-section" class="article-card">
@@ -144,7 +155,7 @@
                         <div id="article2-info" class="article-info">
                             <h3>Cerita Putus Cinta</h3>
                             <p>Dalam cerita putus cinta, seringkali terdapat pesan moral tentang pentingnya komunikasi yang baik, kepercayaan, pengorbanan, atau penerimaan diri sendiri dan orang lain. Cerita ini juga dapat memberikan inspirasi atau penghiburan bagi mereka yang pernah mengalami hal serupa.</p>
-                            <a href="login.html" class="button-article-info">Baca Selengkapnya</a>
+                            <a href="artikel1.html" class="button-article-info">Baca Selengkapnya</a>
                         </div>
                     </div>
                     <div id="article3-section" class="article-card">
@@ -154,7 +165,7 @@
                         <div id="article3-info" class="article-info">
                             <h3>Secarik Dialog</h3>
                             <p>Dalam secarik dialog ini, pembaca dapat melihat Diamku adalah sebait kata. Yang takkan pernah bisa menjadi paragraf,. Aksaraku sepi,. Sendu,. Mengais pada senja yang ingin terpejam.</p>
-                            <a href="login.html" class="button-article-info">Baca Selengkapnya</a>
+                            <a href="artikel2.html" class="button-article-info">Baca Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -170,10 +181,10 @@
                     <div id="footer-tengah" class="footer-menu">
                         <ul>
                             <label>Discover</label>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="login.html">Courses</a></li>
-                            <li><a href="login.html">Mentors</a></li>
-                            <li><a href="login.html">Article</a></li>
+                            <li><a href="home-login.html">Home</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                            <li><a href="mentor.html">Mentors</a></li>
+                            <li><a href="artikel.html">Article</a></li>
                         </ul>
                         <ul>
                             <label>Resources</label>
