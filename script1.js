@@ -51,7 +51,6 @@ function regist() {
       passwordError.innerHTML = '';
   }
   
-  // jika semua input sudah valid, tambahkan data user ke dalam array
   const user = {
     name: nameInput.value,
     email: emailInput.value,
@@ -60,10 +59,8 @@ function regist() {
   };
   users.push(user);
 
-  // simpan array users ke dalam local storage
   localStorage.setItem('users', JSON.stringify(users));
 
-  // alihkan ke halaman login
   window.location.href = "login.html";
 }
 
@@ -83,7 +80,6 @@ const emailLoginInput = document.getElementById('email-login');
 const passwordLoginInput = document.getElementById('password-login');
 const loginError = document.getElementById('login-error');
 
-// Fungsi untuk melakukan validasi saat tombol "Login" ditekan
 function login() {
 
   // Mengambil nilai input email dan password
@@ -113,9 +109,7 @@ function login() {
     passwordError.innerHTML = "";
   }
   
-  // Jika input valid, lakukan proses login
   if (isValid) {
-    // TODO: lakukan proses login sesuai dengan implementasi aplikasi
   } else {
     document.getElementById("login-error").innerHTML = "Please fill in all required fields";
   }
@@ -126,10 +120,8 @@ function login() {
   // Memvalidasi email dan password yang diinputkan
   const foundUser = storedUsers.find(user => user.email === emailInput.value && user.password === passwordInput.value);
   if (foundUser) {
-    // Jika email dan password valid, alihkan ke halaman selanjutnya
     window.location.href = "index.html";
   } else {
-    // Jika email atau password tidak valid, tampilkan pesan error
     loginError.innerHTML = 'Incorrect email or password';
     return;
   }
