@@ -120,7 +120,7 @@ function login() {
   // Memvalidasi email dan password yang diinputkan
   const foundUser = storedUsers.find(user => user.email === emailInput.value && user.password === passwordInput.value);
   if (foundUser) {
-    window.location.href = "index.html";
+    window.location.href = "home-login.html";
   } else {
     loginError.innerHTML = 'Incorrect email or password';
     return;
