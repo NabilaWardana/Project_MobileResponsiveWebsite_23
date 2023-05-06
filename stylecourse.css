@@ -38,6 +38,18 @@ html{
     border-radius: 5px;
     font-weight: 500;
     }
+
+    .profil-dropdown{
+        margin-left: 50px;
+    }
+    .dropdown-toggle{
+        background-color: #F49D1A;
+        border-color: #F49D1A;
+    }
+    .dropdown-toggle:hover{
+        background-color: #f49d1a77;
+        border-color: #f49d1a80;
+    }
     
     .signup-button:hover{
     color: white;

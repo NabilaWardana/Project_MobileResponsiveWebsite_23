@@ -49,6 +49,24 @@ html{
     font-weight: 500;
     }
     
+    .profil-dropdown{
+        margin-left: 50px;
+    }
+    .dropdown-toggle{
+        background-color: #F49D1A;
+        border-color: #F49D1A;
+    }
+    .dropdown-toggle:hover{
+        background-color: #f49d1a77;
+        border-color: #f49d1a80;
+    }
+    .active-button{
+        color: white;
+        background-color: #FFB72B;
+        padding: 9px 15px;
+        border-radius: 5px;
+    }
+    
     @media (max-width: 991px) {
     .navbar-collapse {
     justify-content: center;
